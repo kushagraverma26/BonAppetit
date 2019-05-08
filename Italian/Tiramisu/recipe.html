@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/jpg" href="logo.jpg">
+<link href="recipe.css" rel="stylesheet">
+<title>Tiramisu</title>
+</head>
+<body>
+
+
+<script type="text/javascript" src="aos-master/dist/aos.js"></script>
+<link rel="stylesheet" type="text/css" href="aos-master/dist/aos.css">
+<script type="text/javascript">
+  AOS.init();
+</script>
+
+
+<ul class="topnav"  data-aos="slide-down" data-aos-delay="00">
+  <li><img src="logo1.jpg" width="70px"></li>
+  <li ><a class="active" href="../../Homepage/Homepage.html" data-aos="slide-right" data-aos-delay="950"><b>Home</b></a></li>
+  <li><a href="../../Homepage/Homepage.html#CUISINES" data-aos="slide-down" data-aos-delay="900"><strong>Cuisines</strong></a></li>
+  <li><a href="../../Gallery/images_gallery.html" data-aos="slide-up" data-aos-delay="800"><strong>Images</strong></a></li>
+  
+ <li class="right" data-aos="slide-left" data-aos-delay="800"><a href="http://localhost/form.php"><strong>Order Now</strong></a></li></ul>
+
+
+
+
+<div style="z-index: -1;position: fixed;width: 100%;" >
+	<img src="back1.jpg">
+</div>
+
+
+
+<div class="section one" style="">
+	<div id="tran" style="background-color: rgba(0,0,0,0.75);overflow: hidden;display: inline-block;padding: 0px;font-weight: bolder;color: transparent;font-size: 200px;height:100%;text-align:center;vertical-align:middle;position:absolute;">
+			<span class="one" id="trans" style="-webkit-text-fill-color:transparent;-webkit-background-clip:text;display: block;position:relative;top:40%;">
+					TIRAMISU
+			</span>
+	</div>	
+</div>
+
+</div>
+
+
+<div class="sub" style="font-size: 32px;font-weight: bold;" data-aos="fade-in">
+	
+	<h1 data-aos="slide-right">Description</h1>
+	
+		Tiramisu (from the Italian language, spelled tiramisù [tiramiˈsu], meaning "pick me up", "cheer me up" or "lift me up") is a popular coffee-flavoured Italian custard dessert. It is made of ladyfingers dipped in coffee, layered with a whipped mixture of eggs, sugar, and mascarpone cheese, flavoured with cocoa. The recipe has been adapted into many varieties of cakes and other desserts. Its origins are often disputed among Italian regions such as Veneto, Friuli-Venezia Giulia, Piedmont, and others.
+	
+</div>
+
+<div class="section two"></div>
+
+
+<div class="sub" style="font-size: 32px;font-weight: bold;;" data-aos="fade-in">
+	
+	<h1 data-aos="slide-right">Recipe</h1>
+	<h3>Ingredients</h3><br>
+6 large egg yolks<br>
+3/4 cup sugar<br>
+3/4 cup whole milk<br>
+Four 8-ounce containers mascarpone cheese, at room temperature<br>
+1 1/2 cups espresso or strong coffee, at room temperature<br>
+1/2 cup brandy or cognac<br>
+30 to 32 crisp Italian ladyfingers (savoiardi)<br>
+1/4 cup Dutch-process cocoa powder<br>
+Bittersweet chocolate, for shaving<br><br>
+
+
+
+
+	<h3>Directions</h3><br>
+
+
+	1.Line an 8-inch-square baking dish with plastic wrap, leaving a 3-inch overhang on all sides. Fill a large bowl with ice water.<br>
+
+2.Make the custard: Whisk the egg yolks and sugar in a heatproof bowl set over a saucepan of barely simmering water (do not let the bowl touch the water) until the sugar dissolves. Slowly whisk in the milk and cook, whisking constantly, until the custard is light and foamy, about 10 minutes (a thermometer inserted into the mixture should register 170 degrees F).<br>
+
+3.Remove the bowl from the saucepan and set in the bowl of ice water; whisk until the custard is cool, about 1 minute. Put the mascarpone in a large bowl. Fold the custard into the mascarpone with a rubber spatula until almost combined, then whisk until just smooth (do not overmix or the custard will be grainy).<br>
+
+4.Combine the espresso and brandy in a shallow bowl. One at a time, dip the ladyfingers in the espresso mixture until soaked but not soggy; arrange 2 rows of about 5 biscuits each in the baking dish. Spread one-third of the mascarpone custard over the ladyfingers. Repeat with a second layer of espresso-dipped ladyfingers, arranging them in the opposite direction. Top with another one-third of the custard. Repeat with the remaining ladyfingers, alternating directions. Spread the remaining custard on top and dust with the cocoa powder. Cover with plastic wrap; refrigerate at least 4 hours, or overnight.<br>
+
+5.Invert a plate on top of the tiramisu, then flip the tiramisu with the plate. Remove the baking dish and plastic wrap. Invert a serving plate on top of the tiramisu and flip again so it is cocoa-side up. Remove the remaining plastic wrap. Shave curls of chocolate on top with a vegetable peeler.<br>
+
+</div>
+<div class="section three"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  var position = $('#trans').position(); //Position of the header in the webpage
+  var padding =0; //Padding set to the header
+  var left = position.left + padding;
+  var top = position.top + padding;
+  $('#tran').find("span").css("background-position","-"+left+"px -"+top+"px"); 
+});
+</script>
+</html>

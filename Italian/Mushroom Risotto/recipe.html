@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/jpg" href="logo.jpg">
+<link href="recipe.css" rel="stylesheet">
+<title>Mushroom Risotto</title>
+</head>
+<body>
+
+
+<script type="text/javascript" src="aos-master/dist/aos.js"></script>
+<link rel="stylesheet" type="text/css" href="aos-master/dist/aos.css">
+<script type="text/javascript">
+  AOS.init();
+</script>
+
+
+<ul class="topnav"  data-aos="slide-down" data-aos-delay="00">
+  <li><img src="logo1.jpg" width="70px"></li>
+  <li ><a class="active" href="../../Homepage/Homepage.html" data-aos="slide-right" data-aos-delay="950"><b>Home</b></a></li>
+  <li><a href="../../Homepage/Homepage.html#CUISINES" data-aos="slide-down" data-aos-delay="900"><strong>Cuisines</strong></a></li>
+  <li><a href="../../Gallery/images_gallery.html" data-aos="slide-up" data-aos-delay="800"><strong>Images</strong></a></li>
+  
+ <li class="right" data-aos="slide-left" data-aos-delay="800"><a href="http://localhost/form.php"><strong>Order Now</strong></a></li></ul>
+
+
+
+<div style="z-index: -1;position: fixed;width: 100%;" >
+	<img src="back1.jpg">
+</div>
+
+
+
+<div class="section one" style="">
+	<div id="tran" style="background-color: rgba(0,0,0,0.75);overflow: hidden;display: inline-block;padding: 0px;font-weight: bolder;color: transparent;font-size: 150px;height:100%;text-align:center;vertical-align:middle;position:absolute;">
+			<span class="one" id="trans" style="-webkit-text-fill-color:transparent;-webkit-background-clip:text;display: block;position:relative;top:30%;">
+					MUSHROOM RISOTTO
+			</span>
+	</div>	
+</div>
+
+</div>
+
+
+<div class="sub" style="font-size: 32px;font-weight: bold;" data-aos="fade-in">
+	
+	<h1 data-aos="slide-right">Description</h1>
+	
+		Risotto /rɪˈzɒtoʊ/ (Italian: [riˈzɔtto] or [riˈsɔtto]) is a northern Italian rice dish cooked in a broth to a creamy consistency. The broth can be derived from meat, fish, or vegetables. Many types of risotto contain butter, wine, and onion. It is one of the most common ways of cooking rice in Italy. Saffron was originally used for flavour and its attractive yellow colour.
+
+Risotto in Italy is normally a primo (first course), served on its own before the main course, but risotto alla milanese, (pronounced [riˈzɔtto alla milaˈneːze]), is often served together with ossobuco alla milanese.
+	
+</div>
+
+<div class="section two"></div>
+
+
+<div class="sub" style="font-size: 32px;font-weight: bold;;" data-aos="fade-in">
+	
+	<h1 data-aos="slide-right">Recipe</h1>
+	<h3>Ingredients</h3><br>
+6 cups chicken broth, divided<br>
+<br> 3 tablespoons olive oil, divided <br>
+1 pound portobello mushrooms, thinly sliced <br>
+1 pound white mushrooms, thinly sliced<br>
+ 2 shallots, diced<br>
+ 1 1/2 cups Arborio rice<br>
+  1/2 cup dry white wine sea salt to taste freshly ground black pepper to taste<br>
+  3 tablespoons finely chopped chives <br>
+  4 tablespoons butter<br>
+   1/3 cup freshly grated Parmesan cheese<br><br>
+
+
+
+	<h3>Directions</h3><br>
+
+
+	
+Prep
+20 m<br><br>
+Cook
+30 m<br><br>
+Ready In
+50 m<br><br>
+1.In a saucepan, warm the broth over low heat.<br><br>
+2.Warm 2 tablespoons olive oil in a large saucepan over medium-high heat. Stir in the mushrooms, and cook until soft, about 3 minutes. Remove mushrooms and their liquid, and set aside.<br><br>
+3.Add 1 tablespoon olive oil to skillet, and stir in the shallots. Cook 1 minute. Add rice, stirring to coat with oil, about 2 minutes. When the rice has taken on a pale, golden color, pour in wine, stirring constantly until the wine is fully absorbed. Add 1/2 cup broth to the rice, and stir until the broth is absorbed. Continue adding broth 1/2 cup at a time, stirring continuously, until the liquid is absorbed and the rice is al dente, about 15 to 20 minutes.<br><br>
+4.Remove from heat, and stir in mushrooms with their liquid, butter, chives, and parmesan. Season with salt and pepper to taste.<br>
+
+</div>
+<div class="section three"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  var position = $('#trans').position(); //Position of the header in the webpage
+  var padding =0; //Padding set to the header
+  var left = position.left + padding;
+  var top = position.top + padding;
+  $('#tran').find("span").css("background-position","-"+left+"px -"+top+"px"); 
+});
+</script>
+</html>

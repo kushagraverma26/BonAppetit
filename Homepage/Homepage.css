@@ -1,0 +1,145 @@
+    @font-face{font-family:cont;src:url(PoiretOne-Regular.ttf);}
+@font-face{font-family:ty;src:url(Gourdie_Cursive.ttf);}
+@font-face{font-family:cs;src:url(csms.ttf);}
+
+    body{margin: 0;
+        font-family:;
+        background-image: url("parch.jpg");
+        background-repeat: repeat;
+    	}
+		.fullvid{position: relative;}
+		video{height: auto;vertical-align: middle;width: 100%;}
+        .over{
+                position: absolute;
+                top: 35%;
+                right: 0;
+                bottom: 0;
+                left:0;
+                font-family: cont;
+                font-weight: bolder;
+                text-align: center;
+                font-size: 250px;
+
+            }
+		.sidenav {
+			
+    		width: 0;
+    		position: fixed;
+    		z-index: 1;
+    		top: 50px;
+    		left: 0;
+    		background-color:rgba(255,255,255,0.6);
+    		overflow-x: hidden;
+    		transition: 0s;
+    		padding-top: 0px;
+			}
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #000;
+            display: block;
+            transition: 0.3s;
+            }
+
+        .sidenav a:hover {
+            color: #f00;
+            }
+
+        td a{color:#000;}
+        td a:hover{color:#f00;}
+
+        @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+        }
+
+        a{text-decoration: none;}
+        
+        .coz{ width: 100%;float: left; }
+        .cozimg{width: 500px;float: left;padding-bottom: 60px;}
+        .cozdes{float: left;height: 239px;padding-left: 80px;padding-bottom: 60px;padding-right: 80px;width: 30%;}
+
+    ul.topnav {
+  font-size: 20px;
+  font-family: cont;
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255,255,200,.7);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+nav{position:fixed;height:50px;background-color:rgba(0,0,0,0.5)}
+.topnav li {float: left;
+            color: #280507;
+            font-size:22px; 
+            }
+
+.topnav li a {
+  font-family: cont;
+    display: block;
+    color: rgb(255,255,200);
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    
+}
+
+.topnav li a:hover{background-color:#280507;opacity: .8}
+
+.topnav li a{background-color: #120507;opacity: .9}
+
+.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+        ul.topnav li.right, 
+    ul.topnav li {float: none;
+                  }
+    ul.topnav{
+      position: relative;
+    }
+    .para{
+      font-size: 20px;
+      margin-left: 0;
+    }
+
+
+}
+.buttons{
+    float: left;
+    margin-left: 350px;
+    margin-top: 500px;
+}
+ul.button1 {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+ul.button1 li {float: left;}
+ul.button1 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+
+}
+ul.button1 li a:hover{
+    background-color: #969696;
+    opacity:0.8;
+}
+ul.button1 li a:link{
+    background-color: #000000;
+    opacity:0.8;
+}
+@media screen and (max-width: 600px){ 
+    ul.button1 li {float: none;}
+    .buttons { margin-left:0;}
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}

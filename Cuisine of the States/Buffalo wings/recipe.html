@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<link rel="shortcut icon" type="image/jpg" href="logo.jpg">
+<meta charset="UTF-8">
+<link href="recipe.css" rel="stylesheet">
+<title>Buffalo Wings</title>
+</head>
+<body>
+
+
+<script type="text/javascript" src="aos-master/dist/aos.js"></script>
+<link rel="stylesheet" type="text/css" href="aos-master/dist/aos.css">
+<script type="text/javascript">
+  AOS.init();
+</script>
+
+
+<ul class="topnav"  data-aos="slide-down" data-aos-delay="00">
+  <li><img src="logo1.jpg" width="70px"></li>
+  <li ><a class="active" href="../../Homepage/Homepage.html" data-aos="slide-right" data-aos-delay="950"><b>Home</b></a></li>
+  <li><a href="../../Homepage/Homepage.html#CUISINES" data-aos="slide-down" data-aos-delay="900"><strong>Cuisines</strong></a></li>
+  <li><a href="../../Gallery/images_gallery.html" data-aos="slide-up" data-aos-delay="800"><strong>Images</strong></a></li>
+  
+ <li class="right" data-aos="slide-left" data-aos-delay="800"><a href="http://localhost/form.php"><strong>Order Now</strong></a></li></ul>
+
+
+
+
+
+<div style="z-index: -1;position: fixed;width: 100%;" >
+	<img src="back1.jpg">
+</div>
+
+
+
+<div class="section one" style="">
+	<div id="tran" style="background-color: rgba(0,0,0,0.75);overflow: hidden;display: inline-block;padding: 0px;font-weight: bolder;color: transparent;font-size: 170px;height:100%;text-align:center;vertical-align:middle;position:absolute;">
+			<span class="one" id="trans" style="-webkit-text-fill-color:transparent;-webkit-background-clip:text;display: block;position:relative;top:30%;">
+					BUFFALO WINGS
+			</span>
+	</div>	
+</div>
+
+</div>
+
+
+<div class="sub" style="font-size: 32px;font-weight: bold;" data-aos="fade-in">
+	
+	<h1 data-aos="slide-right">Description</h1>
+	
+		A Buffalo wing, in the cuisine of the United States, is an unbreaded chicken wing section (flat or drumette) that is generally deep-friedthen coated in a sauce consisting of a vinegar-based cayenne pepper hot sauce and melted butter prior to serving.
+	
+</div>
+
+<div class="section two"></div>
+
+
+<div class="sub" style="font-size: 32px;font-weight: bold;;" data-aos="fade-in">
+	
+	<h1 data-aos="slide-right">Recipe</h1>
+	<h3>Ingredients</h3><br>
+	12 whole chicken wings<br>
+3 ounces unsalted butter<br>
+1 small clove garlic, minced<br>
+1/4 cup hot sauce<br>
+1/2 teaspoon kosher salt<br><br>
+
+
+
+
+	<h3>Directions</h3><br>
+
+
+1.Place a 6-quart saucepan with a steamer basket and 1-inch of water in the bottom, over high heat, cover and bring to a boil.<br><br>
+2.Remove the tips of the wings and discard or save for making stock. Using kitchen shears, or a knife, separate the wings at the joint. Place the wings into the steamer basket, cover, reduce the heat to medium and steam for 10 minutes. Remove the wings from the basket and carefully pat dry. 3.Lay the wings out on a cooling rack set in a half sheet pan lined with paper towels and place in the refrigerator for 1 hour.<br><br>
+4.Preheat the oven to 425 degrees F.<br><br>
+5.Replace the paper towels with parchment paper. Roast on the middle rack of the oven for 20 minutes. Turn the wings over and cook another 20 minutes or until meat is cooked through and the skin is golden brown.<br><br>
+6.While the chicken is roasting, melt the butter in a small bowl along with the garlic. Pour this along with hot sauce and salt into a bowl large enough to hold all of the chicken and stir to combine.<br><br>
+7.Remove the wings from the oven and transfer to the bowl and toss with the sauce. Serve warm.<br><br>
+
+</div>
+<div class="section three"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  var position = $('#trans').position(); //Position of the header in the webpage
+  var padding =0; //Padding set to the header
+  var left = position.left + padding;
+  var top = position.top + padding;
+  $('#tran').find("span").css("background-position","-"+left+"px -"+top+"px"); 
+});
+</script>
+</html>

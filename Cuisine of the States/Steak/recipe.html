@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="shortcut icon" type="image/jpg" href="logo.jpg">
+<meta charset="UTF-8">
+<link href="recipe.css" rel="stylesheet">
+<title>Steak</title>
+</head>
+<body>
+
+
+<script type="text/javascript" src="aos-master/dist/aos.js"></script>
+<link rel="stylesheet" type="text/css" href="aos-master/dist/aos.css">
+<script type="text/javascript">
+  AOS.init();
+</script>
+
+
+<ul class="topnav"  data-aos="slide-down" data-aos-delay="00">
+  <li><img src="logo1.jpg" width="70px"></li>
+  <li ><a class="active" href="../../Homepage/Homepage.html" data-aos="slide-right" data-aos-delay="950"><b>Home</b></a></li>
+  <li><a href="../../Homepage/Homepage.html#CUISINES" data-aos="slide-down" data-aos-delay="900"><strong>Cuisines</strong></a></li>
+  <li><a href="../../Gallery/images_gallery.html" data-aos="slide-up" data-aos-delay="800"><strong>Images</strong></a></li>
+ 
+ <li class="right" data-aos="slide-left" data-aos-delay="800"><a href="http://localhost/form.php"><strong>Order Now</strong></a></li></ul>
+
+
+
+
+<div style="z-index: -1;position: fixed;width: 100%;" >
+	<img src="back1.jpg">
+</div>
+
+
+
+<div class="section one" style="">
+	<div id="tran" style="background-color: rgba(0,0,0,0.75);overflow: hidden;display: inline-block;padding: 0px;font-weight: bolder;color: transparent;font-size: 200px;height:100%;text-align:center;vertical-align:middle;position:absolute;">
+			<span class="one" id="trans" style="-webkit-text-fill-color:transparent;-webkit-background-clip:text;display: block;position:relative;top:40%;">
+					STEAK
+			</span>
+	</div>	
+</div>
+
+</div>
+
+
+<div class="sub" style="font-size: 32px;font-weight: bold;" data-aos="fade-in">
+	
+	<h1 data-aos="slide-right">Description</h1>
+	
+		In the United States, a typical steak dinner consists of a steak, optionally topped with sautéed onions and mushrooms, with a starchy side dish; usually baked or mashed potatoes, or thick cut French fries known as steak fries. Chili, rice, pasta, or beans are also common sides. 
+	
+</div>
+
+<div class="section two"></div>
+
+
+<div class="sub" style="font-size: 32px;font-weight: bold;;" data-aos="fade-in">
+	
+	<h1 data-aos="slide-right">Recipe</h1>
+	<h3>Ingredients</h3><br>
+2 (12-ounce) lean, grass-fed New York strip steaks<br>
+1 teaspoon kosher salt<br>
+3/4 teaspoon black pepper<br>
+1 tablespoon olive oil<br>
+2 tablespoons butter<br>
+2 thyme sprigs<br>
+2 garlic cloves, crushed<br><br>
+
+
+
+
+	<h3>Directions</h3><br>
+
+
+	1.Sprinkle salt and pepper evenly over steaks. <br><br>
+	2.Heat a large cast-iron skillet over high heat. Add oil to pan; swirl to coat. Add steaks to pan; cook 3 minutes on each side or until browned. <br><br>
+	3.Reduce heat to medium-low; add butter, thyme, and garlic to pan. Carefully grasp pan handle using an oven mitt or folded dish towel. Tilt pan toward you so butter pools; cook 1 1/2 minutes, basting steaks with butter constantly. <br><br>
+	4.Remove steaks from pan; cover loosely with foil. Let stand 10 minutes. Reserve butter mixture.<br><br>
+5.Cut steak diagonally across grain into thin slices. Discard thyme and garlic; spoon reserved butter mixture over steak.<br><br>
+
+
+</div>
+<div class="section three"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  var position = $('#trans').position(); //Position of the header in the webpage
+  var padding =0; //Padding set to the header
+  var left = position.left + padding;
+  var top = position.top + padding;
+  $('#tran').find("span").css("background-position","-"+left+"px -"+top+"px"); 
+});
+</script>
+</html>

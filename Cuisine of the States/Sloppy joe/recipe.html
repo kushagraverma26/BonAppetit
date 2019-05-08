@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="shortcut icon" type="image/jpg" href="logo.jpg">
+<meta charset="UTF-8">
+<link href="recipe.css" rel="stylesheet">
+<title>Sloppy Joe</title>
+</head>
+<body>
+
+
+<script type="text/javascript" src="aos-master/dist/aos.js"></script>
+<link rel="stylesheet" type="text/css" href="aos-master/dist/aos.css">
+<script type="text/javascript">
+  AOS.init();
+</script>
+
+
+<ul class="topnav"  data-aos="slide-down" data-aos-delay="00">
+  <li><img src="logo1.jpg" width="70px"></li>
+  <li ><a class="active" href="../../Homepage/Homepage.html" data-aos="slide-right" data-aos-delay="950"><b>Home</b></a></li>
+  <li><a href="../../Homepage/Homepage.html#CUISINES" data-aos="slide-down" data-aos-delay="900"><strong>Cuisines</strong></a></li>
+  <li><a href="../../Gallery/images_gallery.html" data-aos="slide-up" data-aos-delay="800"><strong>Images</strong></a></li>
+  
+ <li class="right" data-aos="slide-left" data-aos-delay="800"><a href="http://localhost/form.php"><strong>Order Now</strong></a></li></ul>
+
+
+
+
+<div style="z-index: -1;position: fixed;width: 100%;" >
+	<img src="back1.jpg">
+</div>
+
+
+
+<div class="section one" style="">
+	<div id="tran" style="background-color: rgba(0,0,0,0.75);overflow: hidden;display: inline-block;padding: 0px;font-weight: bolder;color: transparent;font-size: 200px;height:100%;text-align:center;vertical-align:middle;position:absolute;">
+			<span class="one" id="trans" style="-webkit-text-fill-color:transparent;-webkit-background-clip:text;display: block;position:relative;top:40%;">
+					SLOPPY JOE
+			</span>
+	</div>	
+</div>
+
+</div>
+
+
+<div class="sub" style="font-size: 32px;font-weight: bold;" data-aos="fade-in">
+	
+	<h1 data-aos="slide-right">Description</h1>
+	
+		A sloppy joe is a sandwich consisting of ground beef, onions, tomato sauce or ketchup, Worcestershire sauce, and other seasonings, served on a hamburger bun. The dish originated in the United States during the early 20th century.
+	
+</div>
+
+<div class="section two"></div>
+
+
+<div class="sub" style="font-size: 32px;font-weight: bold;;" data-aos="fade-in">
+	
+	<h1 data-aos="slide-right">Recipe</h1>
+	<h3>Ingredients</h3><br>
+		1 pound ground beef<br>
+1 small onion, finely chopped<br>
+1 (8 ounce) can tomato sauce<br>
+1/2 cup ketchup<br>
+1 tablespoon brown sugar<br>
+1 teaspoon ground mustard<br>
+1 tablespoon white vinegar<br>
+1 tablespoon Worcestershire sauce<br>
+Salt and freshly ground black pepper<br>
+8 Sandwich buns, split<br><br>
+
+
+
+
+	<h3>Directions</h3><br>
+
+
+	1.In a large saucepan or Dutch oven over medium-high heat, combine beef and onion. Cook until the meat is mostly browned, about 5 minutes. Drain well.<br><br>
+2.Meanwhile, in a small bowl whisk together tomato sauce, ketchup, brown sugar, mustard, vinegar, Worcestershire, 1/4 teaspoon salt, and 1/8 teaspoon pepper. <br><br>
+3.Pour sauce ingredients over drained beef and stir until evenly coated. Cover and simmer 20 minutes, stirring occasionally. <br><br>4.Serve in buns.<br><br>
+
+
+</div>
+<div class="section three"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  var position = $('#trans').position(); //Position of the header in the webpage
+  var padding =0; //Padding set to the header
+  var left = position.left + padding;
+  var top = position.top + padding;
+  $('#tran').find("span").css("background-position","-"+left+"px -"+top+"px"); 
+});
+</script>
+</html>

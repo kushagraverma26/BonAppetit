@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)file:///G:/form.php?Nme=kushoa&Email=lasnl%40dskc&Mobile=898776 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body id="body">
+		<p>This example demonstrates how to assign an "onselect" event to an input element.</p>
+
+Select some text: <input type="radio" value="Hello world!" onclick="myFunction()">
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "You selected some text!";
+}
+</script>
+		
+			<form>
+			<h1></h1>
+			Name:<br><input type="text" name="Nme" required=""><br>
+			Email:<br><input type="email" name="Email"><br>
+			Mobile no.:<br><input type="number" name="Mobile"><br>
+			Select the type of food you wanna feed on :<br>
+			<select id="c1" onchange="myFunction();"> 
+				<option value="20"> Indian</option>
+				<option value="20"> Cuisine Of The States</option>
+				<option value="30"> Mexican</option>
+				<option value="40"> Italian</option>
+				<option value="50"> Chinese</option>
+			</select>
+			
+			<select id="selectNumber">
+    		<option>u can choose atmost 5 Dishes</option>
+  			</select>
+  			<input type="submit">
+  			</form>
+		        <input type="checkbox" onclick="myFunction(10,30);">
+	        	<script type="text/javascript">
+			//var start;
+			///var end;
+			//console.log("inside sc");
+			function myFunction(start,end){
+			//document.getElementById("c1").disabled=!elem.selectedIndex;
+		        document.getElementById("demo").innerHTML+="inside function";
+		        console.log("inside fn");
+			/*if(document.getElementById("c1").value=="10")
+			{
+			        start=0;
+				end=5;
+				document.getElementById("body").innerHTML+=start+end;
+			}
+			else if(document.getElementById("c1").value=="20")
+			{
+				start=11;
+				end=20;
+				document.getElementById("body").innerHTML+=start+end;
+			}
+			else if(document.getElementById("c1").value=="30")
+			{
+				start=21;
+				end=35;
+				document.getElementById("body").innerHTML+=start+end;
+			}
+			else if(document.getElementById("c1").value=="40")
+			{
+				start=31;
+				end=32;
+				document.getElementById("body").innerHTML+=start+end;
+			}
+			else if(document.getElementById("c1").value=="50")
+			{
+			        start=41;
+				end=46;
+				document.getElementById("body").innerHTML+=start+end;
+			}
+		*/
+			var select = document.getElementById("selectNumber"); 
+var options = ["chicken", "Pasta","Paneer", "kushagra65", "Prashant Special","chicken", "Pasta","Paneer", "kushagra65", "Prashant Special","chicken", "Pasta","Paneer", "kushagra65", "Prashant Special","chicken", "Pasta","Paneer", "kushagra65", "Prashant Special","chicken", "Pasta","Paneer", "kushagra65", "Prashant Special","chicken", "Pasta","Paneer", "kushagra65", "Prashant Special","chicken", "Pasta","Paneer", "kushagra65", "Prashant Special","chicken", "Pasta","Paneer", "kushagra65", "Prashant Special","chicken", "Pasta","Paneer", "kushagra65", "Prashant Special","chicken", "Pasta","Paneer", "kushagra65", "Prashant Special"]; 
+
+for(var i = start; i < end; i++) {
+    var q= options[i];
+    var w = document.createElement("option");
+    w.textContent = q;
+    w.value = q;
+    select.appendChild(w);
+}
+}
+			</script>
+		<!--?php 
+			$servername = "localhost";
+			$username = "root";
+			$password = "Qwerty123$";
+			$dbname = "sim";
+			$conn = mysqli_connect($servername, $username, $password, $dbname);
+			if (!$conn) {
+			    die("Connection failed: " . mysqli_connect_error());
+			}
+			echo "Connected successfully";
+			?-->
+			
+			
+
+	
+
+</body></html>
